@@ -17,6 +17,10 @@ def parola_olusturucu(uzunluk=12, buyuk_harf_kullan=True, rakam_kullan=True, sem
     return parola
 
 # Parola uzunluğunu ve karakter türlerini belirt
+print("""
+    Akica & Kesdy.
+    Tüm hakları saklıdır.
+    """)
 uzunluk = int(input("Parola uzunluğunu girin: "))
 buyuk_harf_kullan = input("Büyük harfler dahil edilsin mi? (e/h): ").lower() == 'e'
 rakam_kullan = input("Rakamlar dahil edilsin mi? (e/h): ").lower() == 'e'
