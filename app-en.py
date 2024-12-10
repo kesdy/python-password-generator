@@ -17,6 +17,10 @@ def password_generator(length=12, use_uppercase=True, use_numbers=True, use_symb
     return password
 
 # Specify the password length and character types
+print("""
+    Akica & Kesdy.
+    All rights reserved.
+    """)
 length = int(input("Enter password length: "))
 use_uppercase = input("Include uppercase letters? (y/n): ").lower() == 'y'
 use_numbers = input("Include numbers? (y/n): ").lower() == 'y'
