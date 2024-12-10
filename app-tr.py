@@ -29,3 +29,4 @@ sembol_kullan = input("Semboller dahil edilsin mi? (e/h): ").lower() == 'e'
 # Parolayı oluştur
 olusturulan_parola = parola_olusturucu(uzunluk, buyuk_harf_kullan, rakam_kullan, sembol_kullan)
 print("Oluşturulan Parola:", olusturulan_parola)
+input()
