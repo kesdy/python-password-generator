@@ -29,3 +29,4 @@ use_symbols = input("Include symbols? (y/n): ").lower() == 'y'
 # Generate the password
 generated_password = password_generator(length, use_uppercase, use_numbers, use_symbols)
 print("Generated Password:", generated_password)
+input()
